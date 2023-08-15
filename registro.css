@@ -1,0 +1,82 @@
+/*--ACOMODANDO-MARGENES-PADDING--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Bright';
+}
+/*--IMAGEN-DE-FONDO--------------*/
+body{
+    background-image: url(inicio_fondo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+.form{
+    width: 550px;
+    padding: 100px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(234, 255, 0, 0.717);
+    border-radius: 50px;
+
+}
+/*--TITULO-----------------------*/
+.titulo{
+    color: #000000;
+    margin-bottom: 30px;
+}
+/*--CAJAS-DE-DATOS---------------*/
+.cajas{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    border-left: 10px solid #949494;
+    transition: all .5s ease;
+}
+.cajas:hover, .cajas:focus{
+    border-left: 10px solid #000000;
+}
+/*--TERMINOS-Y-CONDICIONES-------*/
+.termino1{
+    text-align: center;
+    color: #2e2e2e;
+}
+.termino2{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.termino2:hover{
+    color: #000000;
+}
+/*--BOTON-DE-REGISTRARSE---------*/
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #2b4b3bc9;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.btn:hover{
+    background: #000000a8;
+}
+/*--YA-TENGO-CUENTA--------------*/
+.tengo-cuenta{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tengo-cuenta:hover{
+    color: #000000;
+}

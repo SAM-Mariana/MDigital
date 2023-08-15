@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.box{
+    background-color: rgba(211, 216, 216, 0.744);
+    height: 130px;
+    flex-basis: 20rem;
+}
